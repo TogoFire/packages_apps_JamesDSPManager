@@ -11,6 +11,9 @@ android_app_import {
     },
     overrides: ["AudioFX"],
     system_ext_specific: true,
+    required: [
+        "privapp-permissions-james.dsp.xml",
+    ],
     optional_uses_libs: [
         "androidx.window.extensions",
         "androidx.window.sidecar",
